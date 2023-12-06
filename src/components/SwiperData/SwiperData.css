@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .swiper-container {
+        width:535px;
+        height: 100%;
+      }
+  }

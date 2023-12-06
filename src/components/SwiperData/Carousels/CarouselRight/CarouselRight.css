@@ -1,0 +1,7 @@
+.carousel-right-container{
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    z-index: 1;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.hr-line{
+    height: 1px;
+    background:var(--color-primary);
+    margin: 10px 0px;
+}
+@media (max-width:768px){
+    .hr-line{
+        height: 1px;
+        background:var(--color-primary);
+        margin: 10px 0px;
+        width: 600px;
+    }
+}

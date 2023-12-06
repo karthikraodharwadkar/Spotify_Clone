@@ -1,0 +1,67 @@
+.footer-songs-name-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  width:300px;
+}
+.footer-slider-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-container {
+  background: #121212;
+  box-shadow: 0px -2px 6px 0px rgba(255, 255, 255, 0.35);
+  display: flex;
+  gap: 130px;
+  align-items: center;
+  padding: 30px;
+  margin-top: 30px;
+}
+.slider {
+  position: relative;
+  /* color:var(--color-primary); */
+  width: 676px;
+  height: 6px;
+}
+
+.current-time {
+  position: absolute;
+  color: var(--color-white);
+  left: -50px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.duration-time {
+  position: absolute;
+  color: var(--color-white);
+  right: -40px;
+  top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+  }
+  .slider {
+    width:300px;
+    height: 6px;
+  }
+  .current-time,.duration-time{
+    position: absolute;
+    top:10px;
+  }
+ 
+}

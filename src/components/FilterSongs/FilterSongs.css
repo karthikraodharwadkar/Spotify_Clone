@@ -1,0 +1,40 @@
+.filter-genres{
+    color: var(--color-white);
+   display:flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 28px;
+   font-size: 16px;
+   font-weight: 600;
+   margin:30px;
+}
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    width: 97vw;
+  }
+  .filter-container{
+      margin:30px 0px;
+  }
+  .filter-title {
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 600;
+  }
+ .selectedFilterGenre{
+    border-bottom: 4px solid var(--color-primary);
+    cursor: pointer;
+ }
+@media (max-width:768px){
+    .filter-header {
+        padding-left: 15px;
+      }
+    .filter-container{
+        margin:20px auto;
+        width: 95vw;
+    }
+}
+  
+  

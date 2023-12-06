@@ -1,0 +1,30 @@
+.hero-text {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width:768px) {
+  .hero-text {
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .hero-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 20px;
+    width: 580px;
+  }
+  .headphone-logo{
+    width: 120px;
+    height: 110px;
+  }
+}

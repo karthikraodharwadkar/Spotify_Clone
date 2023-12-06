@@ -1,0 +1,118 @@
+.back-btn {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.album-image {
+  width: 280px;
+  height: 330px;
+  border-radius: 20px;
+  border: 12px solid #121212;
+}
+.detailhero-container {
+  margin: 20px;
+}
+.back-btn {
+  margin-bottom: 10px;
+}
+.album-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+.album-desc-title {
+  color: var(--color-white);
+  font-size: 40px;
+  font-weight: 600;
+}
+.album-description {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 400;
+}
+.album-stats {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 400;
+}
+.dot {
+  color: var(--color-white);
+  font-size: 36px;
+  font-weight: 900;
+  position: relative;
+  bottom: 10px;
+}
+.shuffle-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  border-radius: 12px;
+  background: var(--Primary-400, #34c94b);
+  padding: 10px 17px;
+  width: fit-content;
+  cursor: pointer;
+}
+.library-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--Primary-400, #34c94b);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  padding: 10px 17px;
+  width: fit-content;
+  border-radius: 12px;
+  border: 1px solid var(--Primary-400, #34c94b);
+  background: #121212;
+  cursor: pointer;
+}
+.album-btns {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+@media (max-width:768px){
+    .album-image {
+        width: 180px;
+        height: 230px;
+      }
+      .album-desc-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .album-section {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+      }
+      .album-description {
+        font-size: 12px;
+      }
+      .album-stats {
+        font-size: 12px;
+        font-weight: 400;
+      }
+      .shuffle-btn,.library-btn{
+        font-size: 12px;
+        padding: 5px 8px;
+        width: max-content;
+        cursor: pointer;
+      }
+      .shuffleIcon,.addToLibraryIcon{
+        width: 20px;
+        height: 16px;
+      }
+
+
+}
